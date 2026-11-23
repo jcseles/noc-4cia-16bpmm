@@ -1,0 +1,13 @@
+NOC – 4ª CIA – 16º BPM/M | PWA PARA ANDROID
+
+1. Publique TODOS os arquivos desta pasta em um mesmo diretório de hospedagem HTTPS (preserve a pasta icons).
+2. No Android, abra o endereço HTTPS do index.html no Google Chrome.
+3. No menu ⋮, escolha “Instalar aplicativo” ou “Adicionar à tela inicial” (a opção depende do navegador).
+4. Abra uma vez com internet e aguarde carregar. Depois, o aplicativo pode abrir offline.
+
+IMPORTANTE:
+- Abrir index.html via arquivo local (file://) não ativa instalação PWA nem cache offline.
+- O pacote não inclui hospedagem; é preciso publicar em servidor HTTPS.
+- A geração e o compartilhamento de PDF dependem das permissões e recursos do navegador Android. Teste-os no aparelho.
+- A aplicação não envia dados a servidor por meio deste pacote. Cuide da segurança de dados pessoais em celulares compartilhados.
+- Para atualizar os códigos ou o efetivo, será preciso atualizar o HTML publicado e a versão do cache no sw.js.
